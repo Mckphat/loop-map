@@ -61,7 +61,7 @@ public class Car {
 		//search for car model name if its in the hashmap
 		//CASE SENSITIVE
 		if (cars.get(name) != null) {
-			System.out.println("We have some right here!");
+			System.out.println("We have some right here! The make is " + cars.get(name) + ".");
 		}
 		else {
 			System.out.println("We don't have those, sorry.");
